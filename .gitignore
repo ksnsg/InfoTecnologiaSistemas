@@ -1,0 +1,31 @@
+# Environment – never commit secrets
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+dist/
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+
+# Jest coverage report
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Cursor IDE internal files
+.cursorrules
+.cursor/

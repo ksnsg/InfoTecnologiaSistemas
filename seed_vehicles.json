@@ -1,0 +1,141 @@
+{
+  "_comment": "Mock seed fixture for the Aivacol Fleet Management Platform. Contains brands, models, and vehicles with realistic Brazilian data. Use this file as reference data for manual seeding or integration tests.",
+  "brands": [
+    { "name": "Volkswagen" },
+    { "name": "Chevrolet" },
+    { "name": "Fiat" },
+    { "name": "Toyota" },
+    { "name": "Honda" },
+    { "name": "Hyundai" },
+    { "name": "Jeep" },
+    { "name": "Renault" }
+  ],
+  "models": [
+    { "name": "Gol",      "brandName": "Volkswagen" },
+    { "name": "Polo",     "brandName": "Volkswagen" },
+    { "name": "Virtus",   "brandName": "Volkswagen" },
+    { "name": "Onix",     "brandName": "Chevrolet" },
+    { "name": "Tracker",  "brandName": "Chevrolet" },
+    { "name": "S10",      "brandName": "Chevrolet" },
+    { "name": "Argo",     "brandName": "Fiat" },
+    { "name": "Toro",     "brandName": "Fiat" },
+    { "name": "Strada",   "brandName": "Fiat" },
+    { "name": "Corolla",  "brandName": "Toyota" },
+    { "name": "Hilux",    "brandName": "Toyota" },
+    { "name": "Civic",    "brandName": "Honda" },
+    { "name": "HR-V",     "brandName": "Honda" },
+    { "name": "HB20",     "brandName": "Hyundai" },
+    { "name": "Creta",    "brandName": "Hyundai" },
+    { "name": "Compass",  "brandName": "Jeep" },
+    { "name": "Renegade", "brandName": "Jeep" },
+    { "name": "Kwid",     "brandName": "Renault" },
+    { "name": "Duster",   "brandName": "Renault" }
+  ],
+  "vehicles": [
+    {
+      "licensePlate": "ABC1234",
+      "chassis": "9BWZZZ377VT004251",
+      "renavam": "01234567890",
+      "year": 2019,
+      "modelName": "Gol"
+    },
+    {
+      "licensePlate": "BCD2E34",
+      "chassis": "9BWZZZ377VT104252",
+      "renavam": "09876543210",
+      "year": 2021,
+      "modelName": "Polo"
+    },
+    {
+      "licensePlate": "CDE3F45",
+      "chassis": "9BGKS48U0LG300101",
+      "renavam": "00112233445",
+      "year": 2020,
+      "modelName": "Onix"
+    },
+    {
+      "licensePlate": "DEF4G56",
+      "chassis": "9BGKS48U0LG300202",
+      "renavam": "00556677889",
+      "year": 2022,
+      "modelName": "Tracker"
+    },
+    {
+      "licensePlate": "EFG5H67",
+      "chassis": "9BD15800LE6000301",
+      "renavam": "01122334455",
+      "year": 2021,
+      "modelName": "Argo"
+    },
+    {
+      "licensePlate": "FGH6I78",
+      "chassis": "9BD15800LE6000402",
+      "renavam": "01234509876",
+      "year": 2023,
+      "modelName": "Toro"
+    },
+    {
+      "licensePlate": "GHI7J89",
+      "chassis": "9BFB315B0L8000501",
+      "renavam": "05544332211",
+      "year": 2020,
+      "modelName": "Corolla"
+    },
+    {
+      "licensePlate": "HIJ8K90",
+      "chassis": "9BFB315B0L8000602",
+      "renavam": "06655443322",
+      "year": 2022,
+      "modelName": "Hilux"
+    },
+    {
+      "licensePlate": "IJK9L01",
+      "chassis": "9HGCG3A59LA000701",
+      "renavam": "07766554433",
+      "year": 2020,
+      "modelName": "Civic"
+    },
+    {
+      "licensePlate": "JKL0M12",
+      "chassis": "9HGCG3A59LA000802",
+      "renavam": "08877665544",
+      "year": 2021,
+      "modelName": "HR-V"
+    },
+    {
+      "licensePlate": "KLM1N23",
+      "chassis": "9BFHXXEEJLG000901",
+      "renavam": "09988776655",
+      "year": 2020,
+      "modelName": "HB20"
+    },
+    {
+      "licensePlate": "LMN2O34",
+      "chassis": "9BFHXXEEJLG001002",
+      "renavam": "00099887766",
+      "year": 2022,
+      "modelName": "Creta"
+    },
+    {
+      "licensePlate": "MNO3P45",
+      "chassis": "9C6CK3AA2LG001101",
+      "renavam": "01100998877",
+      "year": 2021,
+      "modelName": "Compass"
+    },
+    {
+      "licensePlate": "NOP4Q56",
+      "chassis": "9C6CK3AA2LG001202",
+      "renavam": "02211009988",
+      "year": 2023,
+      "modelName": "Renegade"
+    },
+    {
+      "licensePlate": "OPQ5R67",
+      "chassis": "9BFZZZLBXLG001301",
+      "renavam": "03322110099",
+      "year": 2022,
+      "modelName": "Kwid"
+    }
+  ]
+}

@@ -13,9 +13,27 @@ jobs:
 
     env:
       NODE_ENV: test
-      # Dummy secret — only used to satisfy the fail-fast guard during test bootstrap.
-      # Real deployments must provide a strong secret via environment/secrets manager.
+      # Dummy values — only satisfy fail-fast guards during module bootstrap.
+      # No real infrastructure runs in CI; all I/O is mocked via AppTestBootstrapper.
       JWT_SECRET: ci-test-secret-do-not-use-in-production
+      MSSQL_SA_PASSWORD: ci-dummy-password
+      MSSQL_HOST: localhost
+      MSSQL_PORT: 1433
+      MSSQL_USER: sa
+      MSSQL_DB: ci_db
+      REDIS_HOST: localhost
+      REDIS_PORT: 6379
+      REDIS_PASSWORD: ci-dummy
+      RABBITMQ_HOST: localhost
+      RABBITMQ_AMQP_PORT: 5672
+      RABBITMQ_USER: ci-dummy
+      RABBITMQ_PASSWORD: ci-dummy
+      RABBITMQ_VHOST: ci_vhost
+      MONGO_HOST: localhost
+      MONGO_PORT: 27017
+      MONGO_USER: ci-dummy
+      MONGO_PASSWORD: ci-dummy
+      MONGO_DB: ci_audit
 
     steps:
       - name: Checkout repository

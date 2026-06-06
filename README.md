@@ -1,5 +1,7 @@
 # Aivacol — Fleet Management Platform
 
+[![CI](https://github.com/ksnsg/InfoTecnologiaSistemas/actions/workflows/ci.yml/badge.svg)](https://github.com/ksnsg/InfoTecnologiaSistemas/actions/workflows/ci.yml)
+
 Backend module for fleet management built as a technical assessment.
 Implements a clean, modular NestJS architecture with strict typing, automated tests, Redis caching, RabbitMQ messaging, and MongoDB audit logging.
 
